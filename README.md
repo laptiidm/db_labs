@@ -35,7 +35,11 @@
 | Grades          | id, assigned_task_id, value, graded_at     |
 
 ### 4. Діаграма зв'язків
-(На цьому етапі можна намалювати ER-діаграму, що відображає сутності та їх зв'язки.)
+[ER-діаграма бази даних](https://miro.com/welcomeonboard/dUdIM2I0WmlvaVM0MGhwM3VnRFozMzA2NWE0dFhmd3AxbUxhR1JvWDBUd0JZbmRkS2dlOE1pVFBsNzF1bzgrdmYrSDY2YmlLeU9nYnlYY3VncjJUc09vR2EzTkpDbThkdUw0dVNRS3MyWXcyakp2bC9MN21VU0I0OXRqOTVWMWtBd044SHFHaVlWYWk0d3NxeHNmeG9BPT0hdjE=?share_link_id=473611988203)
+
+[Схема бази даних](https://dbdiagram.io/d/borda-67c4da1c263d6cf9a0f75dec)
+
+
 
 ### 5. Обмеження цілісності даних
 - `role_id` у таблиці `students` і `teachers` має посилатися на `id` у таблиці `roles`.
